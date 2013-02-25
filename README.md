@@ -29,4 +29,4 @@ Simply copy the javascript bookmarklet to a bookmark within your web browser and
 Open up the bc-id-grabber-bookmarklet.js file and create a bogus bookmark in your web browser's bookmark bar and the click edit. You will paste the javascript into the url for that bookmark.
 
 ## Learn More
-[Learn More](http://joe-watkins.io/articles/grab-system-ids-dynamically-with-a-bookmarklet)
+You can visit my blog to [watch a screencast](http://joe-watkins.io/articles/grab-system-ids-dynamically-with-a-bookmarklet)
