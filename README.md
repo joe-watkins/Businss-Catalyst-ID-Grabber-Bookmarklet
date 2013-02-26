@@ -16,7 +16,7 @@ Simply copy the javascript bookmarklet to a bookmark within your web browser and
 - Secure Zones
 - Site Search
 - Web Apps
--- Web App Items
+-- Web App Items (20 or less)
 - Photo Galleries
 - News
 - Media Downloads
