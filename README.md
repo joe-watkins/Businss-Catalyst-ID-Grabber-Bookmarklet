@@ -8,7 +8,7 @@ Using this little bookmarklet you can easily grab ID's from within the Business 
 Simply copy the javascript bookmarklet to a bookmark within your web browser and once inside the Business Catalyst interface click the bookmarklet to expose IDs.
 
 ## Currently this supports:
-
+- Pages
 - Page Templates
 - Content Holders
 - Menus
