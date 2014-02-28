@@ -9,7 +9,6 @@ Simply copy the javascript bookmarklet to a bookmark within your web browser and
 
 ## Currently this supports:
 
-- Pages
 - Page Templates
 - Content Holders
 - Menus
