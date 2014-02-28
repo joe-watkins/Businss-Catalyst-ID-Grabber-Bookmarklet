@@ -12,17 +12,20 @@ javascript: (function(e, a, g, h, f, c, b, d) {
         a.documentElement.childNodes[0].appendChild(c)
     }
 })(window, document, "1.3.2", function($, L) {
-    jQuery("iframe[name='hybrid']").contents().find("div.RadGrid_Default,div.RadTreeView_Default").each(function() {
+    jQuery("div.RadGrid_Default,div.RadTreeView_Default").each(function() {
         jQuery(this).find("a").each(function() {
             var link  = jQuery(this).attr("href");
             var text  = jQuery(this).text();
             var curURL  = window.location.href;
-            link  = link.split("="); 
+            link  = link.split("=");
             if (curURL.indexOf("CustomContent_ItemList.aspx")  !=  - 1) {
                 jQuery(this).text(text + " - " + link[2].replace("&ValueID", ""));
-            } else {
-                jQuery(this).text(text + " - " + link[1].replace("&A", "").replace("&CustomContent", "").replace("&ValueID", ""));
+            } else if (curURL.indexOf("WebForms.aspx")  !=  - 1){
+                jQuery(this).text(text + " - " + link[1]);
+            }else{
+                jQuery(this).text(text + " - " + link[1].replace("&A", "").replace("&CustomContent", "").replace("WebFormID","").replace("&ValueID", ""));
             }
         });
     });
+
 });
